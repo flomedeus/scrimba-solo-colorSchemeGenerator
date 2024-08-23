@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    width: 550px;
+    background: red;
+    margin: 0.5em auto 0;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.3em;
+}
+
+p:hover{
+    background: #CCC;
+    border-radius: 5px;
+}
+
+.input-bar{
+    background: #FFF;
+}
+
+form{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 1em;
+
+}
+
+
+.color-input,
+.palette-select,
+.getColors-btn{
+    border: 1px solid #D1D5DB;
+}
+
+.color-input{
+    width: 60px;
+    height: 40px;
+    background: #E5E5E5;
+}
+
+.palette-select{
+    flex-grow: 1;
+    border-radius: 6px;
+    padding: 10px;
+    height: 40px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #111827;
+}
+
+.getColors-btn{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: #232933;
+    background: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.getColors-btn:hover{
+    background: #CCC;
+}
+
+.colors-grid{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-container{
+    height: 460px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.color{
+    background: grey;
+    height: 90%;
+}
+
+.color-hex{
+    background: #FFF;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
